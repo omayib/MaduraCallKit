@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C20A2091AF9517D0C5A1FA5 /* libPods-MaduraCallKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBBE861F70171E5857885B4 /* libPods-MaduraCallKit.a */; };
-		1D9809F6A3113DFC939E1976 /* libPods-MaduraCallKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F893D61601EF6F6F940EA018 /* libPods-MaduraCallKitTests.a */; };
 		3D5E743B1E2AD54C007E6C12 /* MaduraCallKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5E74311E2AD54C007E6C12 /* MaduraCallKit.framework */; };
 		3D5E74401E2AD54C007E6C12 /* MaduraCallKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5E743F1E2AD54C007E6C12 /* MaduraCallKitTests.swift */; };
 		3D5E74421E2AD54C007E6C12 /* MaduraCallKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D5E74341E2AD54C007E6C12 /* MaduraCallKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,8 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1126B44411A5C054EA8D2252 /* Pods-MaduraCallKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaduraCallKitTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-MaduraCallKitTests/Pods-MaduraCallKitTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2CBBE861F70171E5857885B4 /* libPods-MaduraCallKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MaduraCallKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D167D961E2C6AFD00859BCE /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		3D167D981E2C6B0D00859BCE /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		3D167D9A1E2C6B1B00859BCE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -60,10 +56,6 @@
 		3DEA2CCC1E2C9292000C106F /* CallEngineCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallEngineCommand.swift; sourceTree = "<group>"; };
 		3DEA2CD21E2C96CD000C106F /* MaduraCallEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaduraCallEngine.swift; sourceTree = "<group>"; };
 		3DEA2CD41E2C974C000C106F /* AgoraCallEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgoraCallEngine.swift; sourceTree = "<group>"; };
-		CECA6617218FE255688915AF /* Pods-MaduraCallKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaduraCallKit.release.xcconfig"; path = "../Pods/Target Support Files/Pods-MaduraCallKit/Pods-MaduraCallKit.release.xcconfig"; sourceTree = "<group>"; };
-		D56A73EB5C7C33E84F1CB5C6 /* Pods-MaduraCallKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaduraCallKitTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-MaduraCallKitTests/Pods-MaduraCallKitTests.release.xcconfig"; sourceTree = "<group>"; };
-		F893D61601EF6F6F940EA018 /* libPods-MaduraCallKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MaduraCallKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAD3793A64687E5EF5E0D71A /* Pods-MaduraCallKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaduraCallKit.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-MaduraCallKit/Pods-MaduraCallKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +70,6 @@
 				3DEA2CC31E2C8417000C106F /* AudioToolbox.framework in Frameworks */,
 				3DEA2CC21E2C8410000C106F /* VideoToolbox.framework in Frameworks */,
 				3DEA2CC11E2C83F3000C106F /* AgoraRtcEngineKit.framework in Frameworks */,
-				1C20A2091AF9517D0C5A1FA5 /* libPods-MaduraCallKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +78,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D5E743B1E2AD54C007E6C12 /* MaduraCallKit.framework in Frameworks */,
-				1D9809F6A3113DFC939E1976 /* libPods-MaduraCallKitTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +91,6 @@
 				3D5E743E1E2AD54C007E6C12 /* MaduraCallKitTests */,
 				3D5E74321E2AD54C007E6C12 /* Products */,
 				85EDDA7BDC7168A2588929F4 /* Frameworks */,
-				4EAECC99AE523E686D0DB25B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,17 +135,6 @@
 			name = AgoraCallEngine;
 			sourceTree = "<group>";
 		};
-		4EAECC99AE523E686D0DB25B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FAD3793A64687E5EF5E0D71A /* Pods-MaduraCallKit.debug.xcconfig */,
-				CECA6617218FE255688915AF /* Pods-MaduraCallKit.release.xcconfig */,
-				1126B44411A5C054EA8D2252 /* Pods-MaduraCallKitTests.debug.xcconfig */,
-				D56A73EB5C7C33E84F1CB5C6 /* Pods-MaduraCallKitTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		85EDDA7BDC7168A2588929F4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,8 +146,6 @@
 				3D167D9A1E2C6B1B00859BCE /* AudioToolbox.framework */,
 				3D167D981E2C6B0D00859BCE /* libc++.tbd */,
 				3D167D961E2C6AFD00859BCE /* VideoToolbox.framework */,
-				2CBBE861F70171E5857885B4 /* libPods-MaduraCallKit.a */,
-				F893D61601EF6F6F940EA018 /* libPods-MaduraCallKitTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -331,7 +307,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-MaduraCallKit/Pods-MaduraCallKit-resources.sh\"\n";
+			shellScript = "";
 			showEnvVarsInLog = 0;
 		};
 		D56FAE7BABD861712DCF6D2A /* [CP] Embed Pods Frameworks */ = {
@@ -501,7 +477,6 @@
 		};
 		3D5E74461E2AD54C007E6C12 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FAD3793A64687E5EF5E0D71A /* Pods-MaduraCallKit.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -531,7 +506,6 @@
 		};
 		3D5E74471E2AD54C007E6C12 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CECA6617218FE255688915AF /* Pods-MaduraCallKit.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -560,7 +534,6 @@
 		};
 		3D5E74491E2AD54C007E6C12 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1126B44411A5C054EA8D2252 /* Pods-MaduraCallKitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = QG8KA4P8TE;
@@ -574,7 +547,6 @@
 		};
 		3D5E744A1E2AD54C007E6C12 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D56A73EB5C7C33E84F1CB5C6 /* Pods-MaduraCallKitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = QG8KA4P8TE;
