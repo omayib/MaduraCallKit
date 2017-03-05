@@ -11,6 +11,9 @@
 		3D5E74401E2AD54C007E6C12 /* MaduraCallKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5E743F1E2AD54C007E6C12 /* MaduraCallKitTests.swift */; };
 		3D5E74421E2AD54C007E6C12 /* MaduraCallKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D5E74341E2AD54C007E6C12 /* MaduraCallKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D9E28BE1E2DF81B00988C0B /* CallEngineResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E28BD1E2DF81B00988C0B /* CallEngineResponse.swift */; };
+		3DD9EC871E6BDEA000415060 /* MaduraCallKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 3DD9EC861E6BDEA000415060 /* MaduraCallKit.podspec */; };
+		3DD9EC891E6BDEBB00415060 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3DD9EC881E6BDEBB00415060 /* LICENSE */; };
+		3DD9EC8B1E6BDECC00415060 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3DD9EC8A1E6BDECC00415060 /* README.md */; };
 		3DEA2CC11E2C83F3000C106F /* AgoraRtcEngineKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEA2CC01E2C83F3000C106F /* AgoraRtcEngineKit.framework */; };
 		3DEA2CC21E2C8410000C106F /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D167D961E2C6AFD00859BCE /* VideoToolbox.framework */; };
 		3DEA2CC31E2C8417000C106F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D167D9A1E2C6B1B00859BCE /* AudioToolbox.framework */; };
@@ -50,6 +53,9 @@
 		3D5E743F1E2AD54C007E6C12 /* MaduraCallKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaduraCallKitTests.swift; sourceTree = "<group>"; };
 		3D5E74411E2AD54C007E6C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D9E28BD1E2DF81B00988C0B /* CallEngineResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallEngineResponse.swift; sourceTree = "<group>"; };
+		3DD9EC861E6BDEA000415060 /* MaduraCallKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MaduraCallKit.podspec; sourceTree = "<group>"; };
+		3DD9EC881E6BDEBB00415060 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3DD9EC8A1E6BDECC00415060 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3DEA2CC01E2C83F3000C106F /* AgoraRtcEngineKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraRtcEngineKit.framework; path = Libs/AgoraRtcEngineKit.framework; sourceTree = "<group>"; };
 		3DEA2CC71E2C8527000C106F /* AgoraEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AgoraEngine.h; sourceTree = "<group>"; };
 		3DEA2CC81E2C8561000C106F /* AgoraEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgoraEngine.m; sourceTree = "<group>"; };
@@ -87,6 +93,7 @@
 		3D5E74271E2AD54C007E6C12 = {
 			isa = PBXGroup;
 			children = (
+				3DD9EC851E6BDE7400415060 /* Podspec metadata */,
 				3D5E74331E2AD54C007E6C12 /* MaduraCallKit */,
 				3D5E743E1E2AD54C007E6C12 /* MaduraCallKitTests */,
 				3D5E74321E2AD54C007E6C12 /* Products */,
@@ -123,6 +130,16 @@
 				3D5E74411E2AD54C007E6C12 /* Info.plist */,
 			);
 			path = MaduraCallKitTests;
+			sourceTree = "<group>";
+		};
+		3DD9EC851E6BDE7400415060 /* Podspec metadata */ = {
+			isa = PBXGroup;
+			children = (
+				3DD9EC861E6BDEA000415060 /* MaduraCallKit.podspec */,
+				3DD9EC881E6BDEBB00415060 /* LICENSE */,
+				3DD9EC8A1E6BDECC00415060 /* README.md */,
+			);
+			name = "Podspec metadata";
 			sourceTree = "<group>";
 		};
 		3DEA2CCF1E2C95BC000C106F /* AgoraCallEngine */ = {
@@ -252,6 +269,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DD9EC891E6BDEBB00415060 /* LICENSE in Resources */,
+				3DD9EC871E6BDEA000415060 /* MaduraCallKit.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +366,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DD9EC8B1E6BDECC00415060 /* README.md in Sources */,
 				3DEA2CD31E2C96CD000C106F /* MaduraCallEngine.swift in Sources */,
 				3D9E28BE1E2DF81B00988C0B /* CallEngineResponse.swift in Sources */,
 				3DEA2CD51E2C974C000C106F /* AgoraCallEngine.swift in Sources */,
