@@ -21,11 +21,11 @@ s.description      = <<-DESC
 TODO: Add long description of the pod here.
 DESC
 
-s.homepage         = 'https://github.com/omayib/EnemyFramework'
+s.homepage         = 'https://github.com/omayib/MaduraCallKit'
 # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'omayib' => 'omayib@gmail.com' }
-s.source           = { :git => 'https://gitlab.devops.mhealth.tech/omayib/MaduraCallKit.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/omayib/MaduraCallKit.git', :tag => s.version.to_s }
 # s.social_media_url = 'https://twitter.com/@omayib'
 
 s.ios.deployment_target = '8.0'
