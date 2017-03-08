@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'MaduraCallKit'
-s.version          = '0.1.4'
+s.version          = '0.1.5'
 s.summary          = 'Call Engine for maduraSDK'
 
 # This description is used to generate tags and improve search results.
@@ -34,7 +34,7 @@ s.source_files = 'MaduraCallKit/**/*'
 s.framework  = 'UIKit', 'AVFoundation', 'CoreMotion', 'CoreTelephony', 'AudioToolbox', 'VideoToolbox', 'Systemconfiguration', 'CoreMedia', 'AgoraRtcEngineKit'
 s.vendored_frameworks   = 'Libs/AgoraRtcEngineKit.framework'
 s.libraries             = "c++", "z"
-s.pod_target_xcconfig = {"OTHER_LDFLAGS" => "'-read_only_relocs' 'suppress'","ENABLE_BITCODE"=>"'false'"}
+s.pod_target_xcconfig = {"OTHER_LDFLAGS" => "'-read_only_relocs' 'suppress'","ENABLE_BITCODE"=>"'NO'"}
 
 
 
