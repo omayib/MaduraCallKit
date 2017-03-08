@@ -34,7 +34,7 @@ s.source_files = 'MaduraCallKit/**/*'
 s.framework  = 'UIKit', 'AVFoundation', 'CoreMotion', 'CoreTelephony', 'AudioToolbox', 'VideoToolbox', 'Systemconfiguration', 'CoreMedia', 'AgoraRtcEngineKit'
 s.vendored_frameworks   = 'Libs/AgoraRtcEngineKit.framework'
 s.libraries             = "c++", "z"
-s.pod_target_xcconfig = {"OTHER_LDFLAGS" => "'-read_only_relocs' 'suppress'"}
+s.pod_target_xcconfig = {"OTHER_LDFLAGS" => "'-read_only_relocs' 'suppress'","ENABLE_BITCODE"=>"'false'"}
 
 
 
